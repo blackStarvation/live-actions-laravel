@@ -1,0 +1,9 @@
+name: DevSecOps Workflow
+on: push
+
+jobs:
+  build:
+    name: Secure CI
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
